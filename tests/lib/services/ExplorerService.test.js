@@ -1,5 +1,6 @@
-const Reader = require("../../../lib/utils/Reader");
-const ExplorerService = require("../../../lib/services/ExplorerService");
+//const Reader = require("../../../lib/utils/Reader");
+const Reader = require("./../../lib/utils/Reader.test");
+const ExplorerService = require("./../../lib/services/ExplorerService");
 const path = require("path");
 
 describe("Test for ExplorerService class", () => {
